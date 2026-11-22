@@ -1,80 +1,31 @@
+<h1 align="center">Hey, I’m Yash 👋</h1>
 
- Hey There!
- 
-<p align="center">
-  <a href="https://www.yashsinha.site/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=23555f&style=plastic&logo=react&logo-color=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/yash-sinha-838526202/" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=|&message=LINKED-IN&color=cdf998&style=plastic&logo=linkedin&logo-color=white"/>
-  </a>
-  <a href="https://twitter.com/yashsinha45" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=|&message=TWITTER&color=23555f&style=plastic&logo=twitter&logo-color=white"/>
-  </a>
-  <a href="https://drive.google.com/file/d/1u15Z0nT_7GCZJjO3lPdzObv5GuJWKE_Y/view?usp=sharing" target="_blank">
-      <img src="https://img.shields.io/static/v1?label=|&message=RESUME&color=23555f&style=plastic&logo=react&logo-color=white"/>
-  </a>
-</p>
-
-Motivated computer science engineering final-year student. Dedicated to harnessing technology for positive change. Eager to contribute innovative solutions to the tech landscape. 🌐 #CodeForChange
-
-See [my website](https://yashsinha.vercel.app) for more information!
-
-
-<h1 align="center">Projects</h1>
-<table bordercolor="#66b2b2">
-  
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">Sociopedia</h3>
-        <br />
-        <a target="_blank" href="https://sociopedia-one.vercel.app">
-            <img src="images/gif1.gif" width="100%" alt="socialpedia"/>
-        </a>
-        <br />
-        <p align="center">
-          
-  <a href="https://github.com/iamYashSinha/Sociopedia" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=|&message=REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
-  </a>  
-      </p>
-        <p><strong>React, Material UI, Node.js, & Express.js, MongoDB</strong> - A platform to help college students connect with each other for learning and personal growth!</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">Crypto App</h3>
-        <br />
-      <a target="_blank" href="https://crypto-app-tawny-eight.vercel.app/">
-            <img src="images/gif2.gif" width="100%"  alt="crypto"/>
-        </a>
-        <br />
-        <p align="center">
-          
-  <a href="https://github.com/iamYashSinha/Crypto-App" target="_blank">
-    <img src="https://img.shields.io/static/v1?label=|&message=REPO&color=23555f&style=plastic&logo=github&logo-color=white"/>
-  </a>
-      </p>
-        <p><strong>React, Chakra UI & Firebase</strong> - Facilitated users in tracking cryptocurrency exchanges, coins, and their real-time performance.</p>
-    </td>
-  </tr>
-</table>
-
-
-<h1 align="center">Technologies</h1>
-
+<p align="center"><strong>Software Development Engineer II</strong></p>
 
 <p align="center">
-    <img src="https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=BOOTSTRAP&color=316c5e&style=plastic&logo=bootstrap"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=REACT.JS&color=4a935c&style=plastic&logo=react"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=JAVA&color=cdf998&style=plastic&logo=java"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=MONGO-DB&color=cdd148&style=plastic&logo=mongodb"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=EXPRESS&color=bbb111&style=plastic&logo=express"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=LINUX&color=bbb111&style=plastic&logo=linux"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=GIT&color=cbb148&style=plastic&logo=git"/>
-    <img src="https://img.shields.io/static/v1?label=|&message=FIREBASE&color=cbb148&style=plastic&logo=firebase"/>
+  <a href="https://www.linkedin.com/in/yashsinha01/">LinkedIn</a> ·
+  <a href="https://www.yashsinha.site/">Website</a> ·
+  <a href="https://drive.google.com/file/d/1u15Z0nT_7GCZJjO3lPdzObv5GuJWKE_Y/view?usp=sharing">Résumé</a> ·
+  <a href="https://twitter.com/yashsinha45">X</a>
 </p>
 
+I’m curious about how things work beneath the abstraction. Lately, I’ve been exploring how AI coding agents use repository context and how we can make that context easier to measure, review, and share.
 
+## Featured project · `ai-context-lint`
 
+[![npm version](https://img.shields.io/npm/v/ai-context-lint?label=npm&color=0f766e)](https://www.npmjs.com/package/ai-context-lint)
+
+An open-source TypeScript CLI that estimates the token cost of a codebase, shows which files pull in the most context through imports, and builds a reviewable Markdown bundle for a specific coding task.
+
+```bash
+npx ai-context-lint . --task "Add retry support to the payment client" --output context.md
+```
+
+In the sample project, that task selects **3 files totaling 267 estimated source tokens**. The bundle includes the selected source and explains why each file was included.
+
+[Source code](https://github.com/iamYashSinha/ai-context-lint) · [npm package](https://www.npmjs.com/package/ai-context-lint) · [Sample project](https://github.com/iamYashSinha/ai-context-lint/tree/main/test-repo)
+
+## Earlier projects
+
+- [Sociopedia](https://github.com/iamYashSinha/Sociopedia) — A social platform for college students, built with React, Express, and MongoDB.
+- [Crypto App](https://github.com/iamYashSinha/Crypto-App) — A cryptocurrency tracker built with React, Chakra UI, and Firebase.
