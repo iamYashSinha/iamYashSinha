@@ -1,5 +1,5 @@
 
- <img src="https://i.imgur.com/eRIeWtm.png" width="100%">
+ Hey There!
  
 <p align="center">
   <a href="https://yashsinha.vercel.app" target="_blank">
